@@ -1,0 +1,46 @@
+body{
+    background: url("./fondos/corazon-1.svg") left top repeat-y,
+    hwb(343 92% 0%) url("./fondos/corazon-2.svg") right top repeat-y;
+    font-family: sans-serif;
+    text-align: center;
+    background-size: 150px;
+    
+}
+
+h1{
+   text-transform: uppercase;
+}
+
+div{
+    margin: 10px 150px;
+    font-weight: bold;
+    font-size: 1.25rem;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: black 2px solid;
+
+}
+
+.sonnet-1{
+    background: url(./fondos/manchas.png);
+    color: white;
+
+}
+
+.sonnet-2{
+    background: url(./fondos/fuego.svg) bottom left no-repeat, url(./fondos/fuego.svg) bottom right no-repeat, url(./fondos/tallos.jpg);
+    color: hwb(52 0% 0%);
+
+}
+
+.sonnet-3{
+    background: url(./fondos/ojo.svg) no-repeat center, url(./fondos/hexagonos.jpg);
+    color: hwb(0 0% 50%);
+}
+
+.sonnet-4{
+    background: url(./fondos/caballo.svg) bottom repeat-x, url(./fondos/estrellas.png) repeat;
+    color: hwb(125 0% 70%);
+    padding-bottom: 50px;
+    background-size: 100px, auto;
+}
