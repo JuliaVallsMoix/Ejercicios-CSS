@@ -1,0 +1,54 @@
+/*                                           */
+/* Escriba su nombre                         */
+/*                                           */
+/* CSS ejercicio: Don  Quijote Capítulo 1    */
+/*                                           */
+/* Escriba la fecha                          */
+/*                                           */
+
+body {
+  font-family: sans-serif;
+  color: yellow;
+  background-color: red;
+  text-align: center;
+}
+
+h1, h2 {
+  text-align: left;
+}
+
+p {
+  text-align: justify;
+  line-height: 150%;
+}
+
+footer {
+  border-top: black 3px solid;
+  color: black;
+}
+
+@media (min-width: 480px){
+  body {
+    background-color: green;
+    color: blue;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+@media (min-width: 720px){
+  body {
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color:aquamarine;
+    color: red;
+  }
+}
+ @media (min-width: 1024px){
+  body {
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: plum;
+    color:brown;
+  }
+ }
